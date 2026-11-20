@@ -1,0 +1,26 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Ann Holt</h1>
+			<p>
+				Engineering leader and hands-on builder. I write about AI-assisted engineering,
+				multi-agent LLM systems, modern data platforms, and what it takes to lead teams
+				that ship them.
+			</p>
+			<p><a href="/blog">Read the blog &rarr;</a></p>
+		</main>
+		<Footer />
+	</body>
+</html>
