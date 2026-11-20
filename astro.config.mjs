@@ -6,8 +6,7 @@ import { defineConfig, fontProviders } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	// Change to your custom domain once it's set up, e.g. 'https://annholt.dev'
-	site: 'https://aholt21754.github.io',
+	site: 'https://ann-holt.dev',
 	integrations: [mdx(), sitemap()],
 	fonts: [
 		{

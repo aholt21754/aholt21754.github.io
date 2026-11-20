@@ -5,7 +5,7 @@ Astro blog, deployed to GitHub Pages by `.github/workflows/deploy.yml` on every 
 ## One-time setup
 1. In the repo on GitHub: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 2. Push to `main` (or run the workflow from the Actions tab). The site appears at
-   https://aholt21754.github.io within a minute or two.
+   https://ann-holt.dev within a minute or two.
 
 ## Writing a post
 Add `src/content/blog/my-post.md` (or `.mdx`):
