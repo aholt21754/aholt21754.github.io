@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ann-holt.dev/sitemap-index.xml
